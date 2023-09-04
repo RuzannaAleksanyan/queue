@@ -37,7 +37,7 @@ template <typename T>
 queue<T>::queue()
 	: m_size{0}
 	, m_capacity{1}
-	, m_arr{new T(m_capacity)
+	, m_arr{new T(m_capacity)}
 {
 }
 
